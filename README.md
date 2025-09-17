@@ -11,11 +11,17 @@ https://arxiv.org/pdf/1501.00092 : Learning a Deep Convolutional Network for Ima
 # Repository Structure
 
 SRCNN/
+
 ├── train.py        # Training loop
+
 ├── test.py         # Evaluation on test images
+
 ├── model.py        # SRCNN model architecture
+
 ├── dataset.py      # Data loading + preprocessing
+
 ├── utils.py        # Helper functions (PSNR, SSIM, resizing)
+
 └── README.md       # Project documentation
 
 # How to Run
@@ -25,7 +31,7 @@ DIV2K dataset is used here:
 - HR images: DIV2K_train_HR
 - LR images (bicubic x2): DIV2K_train_LR_bicubic_X2
 - Validation/Test: DIV2K_valid_HR, DIV2K_valid_LR_bicubic_X2
-- 
+  
 # Evaluation Metrics
 
 - PSNR : 37dB
